@@ -27,7 +27,7 @@ class NumbersPrinterTest extends BaseIOTest {
     void printIsPositivePrintsFalseWhenZero() {
         NumbersPrinter printer = new NumbersPrinter();
 
-        printer.printIsPositive(1);
+        printer.printIsPositive(0);
 
         assertEquals("false\n", updateLineSpliterators(outContent.toString()));
     }

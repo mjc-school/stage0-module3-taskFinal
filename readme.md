@@ -12,7 +12,7 @@ You will be given 2 variables and your task will be to print false using those v
         }
 
 #### 2) Division by zero.
-In the given code snippet you should pick correct primitive type to allow division by zero.
+In the given code snippet you should pick correct primitive type to allow division by zero. Which means that the program must be able to perform division without any exception, etc. In order to to this you will have to search for additional info yourself.
 
 
         public class DivisionByZero {

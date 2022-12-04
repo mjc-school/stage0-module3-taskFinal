@@ -4,6 +4,6 @@ public class PrintingFalse {
     public static void main(String[] args) {
         int first = 9;
         int second = -17;
-        //write code here
+        System.out.println(first < second);
     }
 }
